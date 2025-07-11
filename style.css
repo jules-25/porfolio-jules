@@ -7,7 +7,47 @@
 }
 
 #competence{
-    /* Patricia*/
+    .competences-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1c1c1e;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.competences-container h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.competence {
+  margin-bottom: 20px;
+}
+
+.competence span {
+  display: block;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.bar {
+  background-color: #333;
+  border-radius: 10px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.niveau {
+  background-color: #7f5af0;
+  height: 100%;
+  border-radius: 10px;
+}
+
 }
 
 #projet{
